@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		let client = AlgoliaSearch.Client(appID: "APP_ID", apiKey: "API_KEY")
+		let client = AlgoliaSearch.Client(appID: "ALGOLIASEARCH_APPLICATION_ID", apiKey: "ALGOLIASEARCH_SECURED_API_KEY")
 		let index = client.getIndex("YourIndex")
 
 		// repeat the security filters here
